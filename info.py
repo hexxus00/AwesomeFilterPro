@@ -72,6 +72,6 @@ if AUTO_DELETE == "True":
 
 # URL Shortner #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shareus.io')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'https://shareus.io/')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '33VrH5Kl9faUbGDzaLk8FjXRrTq1')
 
