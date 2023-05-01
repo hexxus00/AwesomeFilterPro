@@ -70,7 +70,8 @@ AUTO_DELETE = environ.get('AUTO_DELETE', True)
 if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
-#Sample
-SHORTNER_SITE = ""
-SHORTNER_API = ""
+# URL Shortner #
+
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shareus.io')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '33VrH5Kl9faUbGDzaLk8FjXRrTq1')
 
